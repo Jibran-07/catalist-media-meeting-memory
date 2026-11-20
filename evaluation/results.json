@@ -1,0 +1,533 @@
+{
+  "evaluation_type": "Offline lexical retrieval proxy, not full agent answer evaluation",
+  "scope": "15 new source-checked questions from the supplied transcripts; source turn found within five returned passages",
+  "questions_evaluated": 15,
+  "retrieval_hits": 8,
+  "retrieval_misses": 7,
+  "retrieval_recall_at_5": 0.533,
+  "model_answers_checked": 0,
+  "reason_for_limited_evaluation": "Neon database and model API credentials unavailable in local environment; backend model answers were not executed",
+  "results": [
+    {
+      "question_id": "E01",
+      "question": "Which energy source was chosen for Team TS3012 in its third meeting?",
+      "expected_answer": "Ordinary batteries.",
+      "source_meeting": "TS3012c",
+      "source_turn": 383,
+      "retrieval_hit_at_5": false,
+      "top_five_passages": [
+        {
+          "meeting_id": "TS3012a",
+          "start_turn": 0,
+          "end_turn": 7
+        },
+        {
+          "meeting_id": "TS3012a",
+          "start_turn": 8,
+          "end_turn": 15
+        },
+        {
+          "meeting_id": "TS3012c",
+          "start_turn": 44,
+          "end_turn": 51
+        },
+        {
+          "meeting_id": "TS3012c",
+          "start_turn": 48,
+          "end_turn": 55
+        },
+        {
+          "meeting_id": "TS3012b",
+          "start_turn": 4,
+          "end_turn": 11
+        }
+      ]
+    },
+    {
+      "question_id": "E02",
+      "question": "What casing material did Team TS3012 tentatively settle on in its third meeting?",
+      "expected_answer": "Rubber.",
+      "source_meeting": "TS3012c",
+      "source_turn": 383,
+      "retrieval_hit_at_5": false,
+      "top_five_passages": [
+        {
+          "meeting_id": "TS3012c",
+          "start_turn": 88,
+          "end_turn": 95
+        },
+        {
+          "meeting_id": "TS3012c",
+          "start_turn": 84,
+          "end_turn": 91
+        },
+        {
+          "meeting_id": "TS3012d",
+          "start_turn": 68,
+          "end_turn": 75
+        },
+        {
+          "meeting_id": "TS3012d",
+          "start_turn": 72,
+          "end_turn": 79
+        },
+        {
+          "meeting_id": "TS3012a",
+          "start_turn": 0,
+          "end_turn": 7
+        }
+      ]
+    },
+    {
+      "question_id": "E03",
+      "question": "Which high-end features did Team ES2006 keep when simplifying scroll controls?",
+      "expected_answer": "Voice recognition and the LCD.",
+      "source_meeting": "ES2006d",
+      "source_turn": 417,
+      "retrieval_hit_at_5": true,
+      "top_five_passages": [
+        {
+          "meeting_id": "ES2006d",
+          "start_turn": 416,
+          "end_turn": 423
+        },
+        {
+          "meeting_id": "ES2006a",
+          "start_turn": 112,
+          "end_turn": 119
+        },
+        {
+          "meeting_id": "ES2006b",
+          "start_turn": 24,
+          "end_turn": 31
+        },
+        {
+          "meeting_id": "ES2006d",
+          "start_turn": 412,
+          "end_turn": 419
+        },
+        {
+          "meeting_id": "ES2006a",
+          "start_turn": 108,
+          "end_turn": 115
+        }
+      ]
+    },
+    {
+      "question_id": "E04",
+      "question": "What extra unit cost did the IS1008 marketing speaker mention for an LCD?",
+      "expected_answer": "Approximately two to three euros.",
+      "source_meeting": "IS1008d",
+      "source_turn": 76,
+      "retrieval_hit_at_5": true,
+      "top_five_passages": [
+        {
+          "meeting_id": "IS1008c",
+          "start_turn": 152,
+          "end_turn": 159
+        },
+        {
+          "meeting_id": "IS1008d",
+          "start_turn": 68,
+          "end_turn": 75
+        },
+        {
+          "meeting_id": "IS1008c",
+          "start_turn": 156,
+          "end_turn": 163
+        },
+        {
+          "meeting_id": "IS1008d",
+          "start_turn": 72,
+          "end_turn": 79
+        },
+        {
+          "meeting_id": "IS1008b",
+          "start_turn": 56,
+          "end_turn": 63
+        }
+      ]
+    },
+    {
+      "question_id": "E05",
+      "question": "Which specific component was absent from the IS1009 cost calculation?",
+      "expected_answer": "The voice recogniser.",
+      "source_meeting": "IS1009d",
+      "source_turn": 241,
+      "retrieval_hit_at_5": false,
+      "top_five_passages": [
+        {
+          "meeting_id": "IS1009b",
+          "start_turn": 24,
+          "end_turn": 31
+        },
+        {
+          "meeting_id": "IS1009a",
+          "start_turn": 52,
+          "end_turn": 59
+        },
+        {
+          "meeting_id": "IS1009b",
+          "start_turn": 28,
+          "end_turn": 35
+        },
+        {
+          "meeting_id": "IS1009a",
+          "start_turn": 132,
+          "end_turn": 139
+        },
+        {
+          "meeting_id": "IS1009c",
+          "start_turn": 88,
+          "end_turn": 95
+        }
+      ]
+    },
+    {
+      "question_id": "E06",
+      "question": "Which material was proposed to replace wood for Team IS1003?",
+      "expected_answer": "Plastic.",
+      "source_meeting": "IS1003d",
+      "source_turn": 431,
+      "retrieval_hit_at_5": false,
+      "top_five_passages": [
+        {
+          "meeting_id": "IS1003d",
+          "start_turn": 384,
+          "end_turn": 391
+        },
+        {
+          "meeting_id": "IS1003c",
+          "start_turn": 328,
+          "end_turn": 335
+        },
+        {
+          "meeting_id": "IS1003c",
+          "start_turn": 312,
+          "end_turn": 319
+        },
+        {
+          "meeting_id": "IS1003d",
+          "start_turn": 380,
+          "end_turn": 387
+        }
+      ]
+    },
+    {
+      "question_id": "E07",
+      "question": "Why was a lithium battery considered advantageous for Team ES2010?",
+      "expected_answer": "It offered longer battery life.",
+      "source_meeting": "ES2010c",
+      "source_turn": 227,
+      "retrieval_hit_at_5": false,
+      "top_five_passages": [
+        {
+          "meeting_id": "ES2010c",
+          "start_turn": 64,
+          "end_turn": 71
+        },
+        {
+          "meeting_id": "ES2010c",
+          "start_turn": 68,
+          "end_turn": 75
+        },
+        {
+          "meeting_id": "ES2010b",
+          "start_turn": 60,
+          "end_turn": 67
+        },
+        {
+          "meeting_id": "ES2010d",
+          "start_turn": 136,
+          "end_turn": 143
+        },
+        {
+          "meeting_id": "ES2010d",
+          "start_turn": 140,
+          "end_turn": 147
+        }
+      ]
+    },
+    {
+      "question_id": "E08",
+      "question": "What physical problem did the ES2007 marketing speaker associate with excessive channel changing?",
+      "expected_answer": "Repetitive strain injury and wrist discomfort.",
+      "source_meeting": "ES2007b",
+      "source_turn": 159,
+      "retrieval_hit_at_5": false,
+      "top_five_passages": [
+        {
+          "meeting_id": "ES2007c",
+          "start_turn": 108,
+          "end_turn": 115
+        },
+        {
+          "meeting_id": "ES2007b",
+          "start_turn": 100,
+          "end_turn": 107
+        },
+        {
+          "meeting_id": "ES2007b",
+          "start_turn": 132,
+          "end_turn": 139
+        },
+        {
+          "meeting_id": "ES2007c",
+          "start_turn": 292,
+          "end_turn": 299
+        },
+        {
+          "meeting_id": "ES2007a",
+          "start_turn": 216,
+          "end_turn": 223
+        }
+      ]
+    },
+    {
+      "question_id": "E09",
+      "question": "What control layout was suggested instead of the joystick in the final TS3010 meeting?",
+      "expected_answer": "Conventional up, down, left and right buttons.",
+      "source_meeting": "TS3010d",
+      "source_turn": 204,
+      "retrieval_hit_at_5": true,
+      "top_five_passages": [
+        {
+          "meeting_id": "TS3010d",
+          "start_turn": 200,
+          "end_turn": 207
+        },
+        {
+          "meeting_id": "TS3010d",
+          "start_turn": 276,
+          "end_turn": 283
+        },
+        {
+          "meeting_id": "TS3010b",
+          "start_turn": 88,
+          "end_turn": 95
+        },
+        {
+          "meeting_id": "TS3010c",
+          "start_turn": 212,
+          "end_turn": 219
+        },
+        {
+          "meeting_id": "TS3010b",
+          "start_turn": 84,
+          "end_turn": 91
+        }
+      ]
+    },
+    {
+      "question_id": "E10",
+      "question": "Which uncertainty did the ES2011 project manager promise to check before the next meeting?",
+      "expected_answer": "Whether television-only requirements excluded DVD functions.",
+      "source_meeting": "ES2011b",
+      "source_turn": 229,
+      "retrieval_hit_at_5": true,
+      "top_five_passages": [
+        {
+          "meeting_id": "ES2011a",
+          "start_turn": 0,
+          "end_turn": 7
+        },
+        {
+          "meeting_id": "ES2011a",
+          "start_turn": 4,
+          "end_turn": 11
+        },
+        {
+          "meeting_id": "ES2011c",
+          "start_turn": 8,
+          "end_turn": 15
+        },
+        {
+          "meeting_id": "ES2011b",
+          "start_turn": 40,
+          "end_turn": 47
+        },
+        {
+          "meeting_id": "ES2011b",
+          "start_turn": 224,
+          "end_turn": 231
+        }
+      ]
+    },
+    {
+      "question_id": "E11",
+      "question": "What kind of price position did marketing prefer for a beauty-focused IS1002 remote?",
+      "expected_answer": "A distinctive premium price, rather than economic competition.",
+      "source_meeting": "IS1002b",
+      "source_turn": 105,
+      "retrieval_hit_at_5": true,
+      "top_five_passages": [
+        {
+          "meeting_id": "IS1002b",
+          "start_turn": 100,
+          "end_turn": 107
+        },
+        {
+          "meeting_id": "IS1002b",
+          "start_turn": 104,
+          "end_turn": 111
+        },
+        {
+          "meeting_id": "IS1002c",
+          "start_turn": 148,
+          "end_turn": 155
+        },
+        {
+          "meeting_id": "IS1002d",
+          "start_turn": 104,
+          "end_turn": 111
+        },
+        {
+          "meeting_id": "IS1002c",
+          "start_turn": 144,
+          "end_turn": 151
+        }
+      ]
+    },
+    {
+      "question_id": "E12",
+      "question": "What manufacturing concern was raised about irregular fruit or vegetable shapes?",
+      "expected_answer": "They would be more expensive to produce.",
+      "source_meeting": "ES2011d",
+      "source_turn": 264,
+      "retrieval_hit_at_5": true,
+      "top_five_passages": [
+        {
+          "meeting_id": "ES2011c",
+          "start_turn": 20,
+          "end_turn": 27
+        },
+        {
+          "meeting_id": "ES2011c",
+          "start_turn": 16,
+          "end_turn": 23
+        },
+        {
+          "meeting_id": "ES2011d",
+          "start_turn": 0,
+          "end_turn": 7
+        },
+        {
+          "meeting_id": "ES2011d",
+          "start_turn": 260,
+          "end_turn": 267
+        },
+        {
+          "meeting_id": "ES2011b",
+          "start_turn": 32,
+          "end_turn": 39
+        }
+      ]
+    },
+    {
+      "question_id": "E13",
+      "question": "What missing work did the TS3012 project manager lament after removing the scroll wheel?",
+      "expected_answer": "Reliable finance or price calculations.",
+      "source_meeting": "TS3012c",
+      "source_turn": 635,
+      "retrieval_hit_at_5": true,
+      "top_five_passages": [
+        {
+          "meeting_id": "TS3012c",
+          "start_turn": 124,
+          "end_turn": 131
+        },
+        {
+          "meeting_id": "TS3012c",
+          "start_turn": 628,
+          "end_turn": 635
+        },
+        {
+          "meeting_id": "TS3012b",
+          "start_turn": 4,
+          "end_turn": 11
+        },
+        {
+          "meeting_id": "TS3012b",
+          "start_turn": 8,
+          "end_turn": 15
+        },
+        {
+          "meeting_id": "TS3012a",
+          "start_turn": 0,
+          "end_turn": 7
+        }
+      ]
+    },
+    {
+      "question_id": "E14",
+      "question": "Which practical obstacle did Team ES2008 discuss for finding a lost remote by signal?",
+      "expected_answer": "Infrared cannot find a unit hidden under a sofa.",
+      "source_meeting": "ES2008d",
+      "source_turn": 46,
+      "retrieval_hit_at_5": true,
+      "top_five_passages": [
+        {
+          "meeting_id": "ES2008d",
+          "start_turn": 40,
+          "end_turn": 47
+        },
+        {
+          "meeting_id": "ES2008d",
+          "start_turn": 36,
+          "end_turn": 43
+        },
+        {
+          "meeting_id": "ES2008a",
+          "start_turn": 36,
+          "end_turn": 43
+        },
+        {
+          "meeting_id": "ES2008b",
+          "start_turn": 76,
+          "end_turn": 83
+        },
+        {
+          "meeting_id": "ES2008a",
+          "start_turn": 32,
+          "end_turn": 39
+        }
+      ]
+    },
+    {
+      "question_id": "E15",
+      "question": "Which appearance did one designer propose mimicking with cheaper material on the remote front?",
+      "expected_answer": "A titanium-like finish.",
+      "source_meeting": "TS3009c",
+      "source_turn": 44,
+      "retrieval_hit_at_5": false,
+      "top_five_passages": [
+        {
+          "meeting_id": "TS3009c",
+          "start_turn": 60,
+          "end_turn": 67
+        },
+        {
+          "meeting_id": "TS3009b",
+          "start_turn": 24,
+          "end_turn": 31
+        },
+        {
+          "meeting_id": "TS3009c",
+          "start_turn": 324,
+          "end_turn": 331
+        },
+        {
+          "meeting_id": "TS3009d",
+          "start_turn": 368,
+          "end_turn": 375
+        },
+        {
+          "meeting_id": "TS3009d",
+          "start_turn": 416,
+          "end_turn": 423
+        }
+      ]
+    }
+  ],
+  "elapsed_seconds": 0.698
+}

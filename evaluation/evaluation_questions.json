@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "question_id": "E01",
+      "team": "TS3012",
+      "question": "Which energy source was chosen for Team TS3012 in its third meeting?",
+      "expected_answer": "Ordinary batteries.",
+      "ground_truth": {
+        "meeting_id": "TS3012c",
+        "turn_index": 383,
+        "speaker": "A",
+        "quote": "Ah. Yeah. Okay, anyway. Uh energy, we choose regular regular batteries. The chip is advanced because we have the advanced features. The case, it will be the material will be rubber, suppose. Wouldn't the b the design we talked about. Uh user interface, type."
+      }
+    },
+    {
+      "question_id": "E02",
+      "team": "TS3012",
+      "question": "What casing material did Team TS3012 tentatively settle on in its third meeting?",
+      "expected_answer": "Rubber.",
+      "ground_truth": {
+        "meeting_id": "TS3012c",
+        "turn_index": 383,
+        "speaker": "A",
+        "quote": "Ah. Yeah. Okay, anyway. Uh energy, we choose regular regular batteries. The chip is advanced because we have the advanced features. The case, it will be the material will be rubber, suppose. Wouldn't the b the design we talked about. Uh user interface, type."
+      }
+    },
+    {
+      "question_id": "E03",
+      "team": "ES2006",
+      "question": "Which high-end features did Team ES2006 keep when simplifying scroll controls?",
+      "expected_answer": "Voice recognition and the LCD.",
+      "ground_truth": {
+        "meeting_id": "ES2006d",
+        "turn_index": 417,
+        "speaker": "A",
+        "quote": "Not really, no. Because we keep all the features, we keep voice recognition, we keep L_C_D_ display. We instead of having scrolling we we just push the buttons. Um yeah."
+      }
+    },
+    {
+      "question_id": "E04",
+      "team": "IS1008",
+      "question": "What extra unit cost did the IS1008 marketing speaker mention for an LCD?",
+      "expected_answer": "Approximately two to three euros.",
+      "ground_truth": {
+        "meeting_id": "IS1008d",
+        "turn_index": 76,
+        "speaker": "D",
+        "quote": "It's not it doesn't say. We don't have the price up there, okay, so if we add approximately two to three Euro per"
+      }
+    },
+    {
+      "question_id": "E05",
+      "team": "IS1009",
+      "question": "Which specific component was absent from the IS1009 cost calculation?",
+      "expected_answer": "The voice recogniser.",
+      "ground_truth": {
+        "meeting_id": "IS1009d",
+        "turn_index": 241,
+        "speaker": "A",
+        "quote": "Um I just realised one thing. In the financing there was no room for our voice recogniser."
+      }
+    },
+    {
+      "question_id": "E06",
+      "team": "IS1003",
+      "question": "Which material was proposed to replace wood for Team IS1003?",
+      "expected_answer": "Plastic.",
+      "ground_truth": {
+        "meeting_id": "IS1003d",
+        "turn_index": 431,
+        "speaker": "B",
+        "quote": "I think you can transform the wood into plastic, maybe. Because uh it seems that this can be yeah, wood into plastic and it it should be fine."
+      }
+    },
+    {
+      "question_id": "E07",
+      "team": "ES2010",
+      "question": "Why was a lithium battery considered advantageous for Team ES2010?",
+      "expected_answer": "It offered longer battery life.",
+      "ground_truth": {
+        "meeting_id": "ES2010c",
+        "turn_index": 227,
+        "speaker": "D",
+        "quote": "I think triple A_, it'll be lighter."
+      }
+    },
+    {
+      "question_id": "E08",
+      "team": "ES2007",
+      "question": "What physical problem did the ES2007 marketing speaker associate with excessive channel changing?",
+      "expected_answer": "Repetitive strain injury and wrist discomfort.",
+      "ground_truth": {
+        "meeting_id": "ES2007b",
+        "turn_index": 159,
+        "speaker": "D",
+        "quote": "Yeah, repetitive strains injury, so they don't I think people who watch T_V_ maybe too often, keep changing channel hurts their wrist. I don't think so."
+      }
+    },
+    {
+      "question_id": "E09",
+      "team": "TS3010",
+      "question": "What control layout was suggested instead of the joystick in the final TS3010 meeting?",
+      "expected_answer": "Conventional up, down, left and right buttons.",
+      "ground_truth": {
+        "meeting_id": "TS3010d",
+        "turn_index": 204,
+        "speaker": "D",
+        "quote": "If we would have uh uh normal buttons instead of uh the joystick. For up down left right."
+      }
+    },
+    {
+      "question_id": "E10",
+      "team": "ES2011",
+      "question": "Which uncertainty did the ES2011 project manager promise to check before the next meeting?",
+      "expected_answer": "Whether television-only requirements excluded DVD functions.",
+      "ground_truth": {
+        "meeting_id": "ES2011b",
+        "turn_index": 229,
+        "speaker": "A",
+        "quote": "You know actually our our new project requirements, I'm not sure if they meant o onl use only for television as in not for D_V_D_ or just not internet type things. So I'll I'll check that and update you on the next But we'll hold off on that 'cause"
+      }
+    },
+    {
+      "question_id": "E11",
+      "team": "IS1002",
+      "question": "What kind of price position did marketing prefer for a beauty-focused IS1002 remote?",
+      "expected_answer": "A distinctive premium price, rather than economic competition.",
+      "ground_truth": {
+        "meeting_id": "IS1002b",
+        "turn_index": 105,
+        "speaker": "D",
+        "quote": "I don't I don't see it, and to me if I'm gonna market a product for b for beauty for for design I'm gonna I'm gonna try to market it at a much higher price. I need to make it special with a high price tag. I don't want to"
+      }
+    },
+    {
+      "question_id": "E12",
+      "team": "ES2011",
+      "question": "What manufacturing concern was raised about irregular fruit or vegetable shapes?",
+      "expected_answer": "They would be more expensive to produce.",
+      "ground_truth": {
+        "meeting_id": "ES2011d",
+        "turn_index": 264,
+        "speaker": "A",
+        "quote": "Yeah. And it would probably cost more to produce, 'cause they're irregular."
+      }
+    },
+    {
+      "question_id": "E13",
+      "team": "TS3012",
+      "question": "What missing work did the TS3012 project manager lament after removing the scroll wheel?",
+      "expected_answer": "Reliable finance or price calculations.",
+      "ground_truth": {
+        "meeting_id": "TS3012c",
+        "turn_index": 635,
+        "speaker": "A",
+        "quote": "No r no scroll-wheel. Okay. Um I don't see anything missing really. Yeah, we should too bad we don't have the finance. We could've"
+      }
+    },
+    {
+      "question_id": "E14",
+      "team": "ES2008",
+      "question": "Which practical obstacle did Team ES2008 discuss for finding a lost remote by signal?",
+      "expected_answer": "Infrared cannot find a unit hidden under a sofa.",
+      "ground_truth": {
+        "meeting_id": "ES2008d",
+        "turn_index": 46,
+        "speaker": "A",
+        "quote": "Mm-hmm. Okay, that's a fair evaluation. Getting lost. Um we so we do we've decided not to worry about that for now. Okay 'cause well, the designs are very bright, so you're right, they're gonna stick out, but um"
+      }
+    },
+    {
+      "question_id": "E15",
+      "team": "TS3009",
+      "question": "Which appearance did one designer propose mimicking with cheaper material on the remote front?",
+      "expected_answer": "A titanium-like finish.",
+      "ground_truth": {
+        "meeting_id": "TS3009c",
+        "turn_index": 44,
+        "speaker": "D",
+        "quote": "Yeah, that's great. But I think we can all make the the fronts of titanium or something uh really thin. So it looks very heavy but you can still uh use it very easily."
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "task": "Local Python transcript reading, speaker parsing and overlapping passage construction only",
+  "not_measured": "PostgreSQL schema creation, network round trips, managed database writes, GIN index updates, model inference, live backend latency",
+  "sample_meetings": 138,
+  "sample_speaker_turns": 48148,
+  "sample_passages": 12090,
+  "sample_source_bytes": 4470090,
+  "sample_overlapping_passage_bytes": 7911777,
+  "repeat_count": 5,
+  "all_runs_seconds": [
+    0.0831,
+    0.0795,
+    0.1103,
+    0.086,
+    0.0784
+  ],
+  "median_local_preprocessing_seconds": 0.0831,
+  "estimated_local_preprocessing_seconds_for_1000": 0.602,
+  "estimated_1000_source_megabytes_decimal": 32.39,
+  "estimated_1000_passage_megabytes_decimal": 57.33,
+  "model_cost_to_ingest_usd": 0,
+  "hosting_cost_estimate": "Potentially $0 on a free Neon tier if final database including indexes stays within plan limits; actual database size and compute usage are unmeasured. No valid total-cost figure without a live database.",
+  "extrapolation_note": "Linear extrapolation assumes 1000 meetings have the same mean size as this 138-meeting sample and excludes database overhead."
+}
